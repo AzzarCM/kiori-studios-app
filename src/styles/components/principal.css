@@ -47,6 +47,9 @@
     background: linear-gradient(180deg, #B57BD7 0%, #592F71 100%);
     border: none;
     outline: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .principal__texts{
