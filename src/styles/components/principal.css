@@ -98,3 +98,14 @@
         margin-top: 1rem;
     }
 }
+@media (min-width: 300px) and (max-width: 420px){
+    .principal__compu-img-mobile{
+        width: 300px;
+    }
+    .principal__main-title{
+        text-align: center;
+    }
+    .principal__paragraph{
+        text-align: center;
+    }
+}
