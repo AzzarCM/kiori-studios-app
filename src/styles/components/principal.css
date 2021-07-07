@@ -64,11 +64,13 @@
     background: linear-gradient(180deg, #B57BD7 0%, #884eaa 100%);
 }
 
-@media (min-width: 300px) and (max-width: 1024px){
-    .principal__up-container{
-        flex-direction: column;
+
+@media (min-width: 1025px) and (max-width: 1440px){
+    .principal__compu-img {
+        width: 600px !important;
     }
 }
+
 
 @media (min-width: 769px) and (max-width: 1024px){
     .principal__down-container{
@@ -79,8 +81,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    
+    } 
 }
 
 
