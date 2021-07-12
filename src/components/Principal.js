@@ -19,13 +19,6 @@ export const Princpal = () => {
         </div>
       </div>
       <div className="principal__down-container">
-        <div>
-          <img
-            alt="compu"
-            src={compu}
-            className="principal__compu-img-mobile"
-          />
-        </div>
         <div className="principal__texts">
           <p className="principal__main-title">We are Updating</p>
           <p className="principal__paragraph">
@@ -38,7 +31,11 @@ export const Princpal = () => {
           </a>
         </div>
         <div>
-          <img alt="compu" src={compu} className="principal__compu-img" />
+          <img
+            alt="compu"
+            src={compu}
+            className="principal__compu-img-mobile"
+          />
         </div>
       </div>
     </div>
