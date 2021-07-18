@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/svg/logo.svg";
 import logo_letra from "../assets/img/kiorilogo.png";
 import compu from "../assets/img/compu.png";
 
@@ -8,19 +8,18 @@ export const Princpal = () => {
     <div className="principal__main-fondo">
       <div className="principal__up-container">
         <div>
-          <img alt="logo" src={logo} />
-          <img alt="logo" src={logo_letra} />
+          <img alt="logo" src={logo} width="220"/>
         </div>
         <div>
           <p className="principal__text-header">
-            WEB DEVELPMENT - MOBILE DEVELOPMENT - DESIGN - MARKETING -
+            WEB DEVELOPMENT - MOBILE DEVELOPMENT - DESIGN - MARKETING -
             ADVERTISIGN
           </p>
         </div>
       </div>
       <div className="principal__down-container">
         <div className="principal__texts">
-          <p className="principal__main-title">We are Updating</p>
+          <p className="principal__main-title">We are updating</p>
           <p className="principal__paragraph">
             Today is a great day to update, <br />
             we evolve with you to always <br />
